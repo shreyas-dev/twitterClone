@@ -1,0 +1,49 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-bottom: 60px;
+}
+.maincontainer{
+  padding: 20px;
+}
+.header{
+  padding-top: 20px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.tweet{
+  border:1px solid lightblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin:5px;
+  margin-top: 20px;
+}
+.time{
+  color:lightgrey;
+}
+#loginalert{
+	display: none;
+}
+ .border{
+  border-right: 1px solid grey;
+ }
+ #tweetSuccess{
+  display: none;
+ }
+ #tweetFail{
+  display: none;
+ }
+ #tweetDelete{
+  display: none;
+ }
